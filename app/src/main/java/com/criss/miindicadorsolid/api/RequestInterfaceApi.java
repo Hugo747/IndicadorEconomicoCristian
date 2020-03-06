@@ -1,5 +1,5 @@
 package com.criss.miindicadorsolid.api;
 
 public interface RequestInterfaceApi {
-    void Response(Response response);
+    void response(Response response);
 }

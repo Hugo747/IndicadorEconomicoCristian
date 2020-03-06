@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements RequestInterfaceA
 
     @SuppressLint("SetTextI18n")
     @Override
-    public void Response(Response response) {
+    public void response(Response response) {
         try {
             if (response.state == Response.ResponseState.SUCCESS &&
                     !response.hasError) {
